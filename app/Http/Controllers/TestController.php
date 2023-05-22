@@ -8,7 +8,7 @@ class TestController extends Controller
 {
     public function index()
     {
-        $arr = array("PHP", "C#", "C++", "JS");
+        $arr = array("PHP", "C#", "C++", "JS", "Blade");
         $languages = array("ua", "en", "pl");
         return view('Test.index', array('p' => $arr, 'l' => $languages));
     }
